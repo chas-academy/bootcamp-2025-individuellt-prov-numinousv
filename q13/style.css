@@ -8,10 +8,16 @@
   min-height: 100vh;
   padding: 2rem;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #fff5ec;
 }
 
 .box {
   padding: 0.5rem;
   background-color: #ffd5c2;
+}
+.other-box {
+  padding: 1rem; 
+  background-color: #ffd5c2
 }

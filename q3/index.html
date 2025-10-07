@@ -9,7 +9,7 @@
 
 <body>
     <!-- ett eller flera element saknas för att formuläret ska fungera -->
-    <form onsubmit="alert('Formuläret skickades')">
+    <form onsubmit="alert('Formuläret skickades')" id="form1">
         <label for="name">Namn</label>
         <input type="text" id="name" name="name">
         <label for="email">Email</label>
@@ -17,6 +17,7 @@
         <label for="message">Meddelande</label>
         <textarea id="message" name="message"></textarea>
     </form>
+    <button type="submit" form="form1" value="Submit">Skicka</button>
 </body>
 
 </html>
